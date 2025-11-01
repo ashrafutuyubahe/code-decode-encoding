@@ -47,5 +47,5 @@ def decode_pdf417(image_path):
 
 
 if __name__ == "__main__":
-    image_path = "encoded-image.jpg"  # replace with your image path
+    image_path = "./images/encoded-image.jpg"  # replace with your image path
     decode_pdf417(image_path)
